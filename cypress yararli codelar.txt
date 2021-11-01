@@ -1,0 +1,14 @@
+cypress acmak icin
+npx cypress open
+
+son surumu yuklemek icin
+npm install --save-dev cypress@8.7.0
+
+browser olmadan calistirmak icin
+npx cypress run --headless
+
+should  -> Assert gibi kullaniliyor
+
+mobile testing
+        cy.viewport('iphone-5') telefonun boyutlarinda aciiyor yada ekran olculerinide egistirebilirsin
+       cy.viewport(1280,720) 
