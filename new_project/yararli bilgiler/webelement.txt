@@ -1,0 +1,10 @@
+class locate ederken class='ben_classim'  --->  .ben_classim
+id                      id='ben_id'       --->  #ben_id
+any other attribute  value='ben_value'    --->  [value='ben_value']
+
+combination          class='bir classim'
+                     value='ben_value'    ---> .classim[value='ben_value']
+
+note : class da bosluk vardi bu bosluktan sonra gelen kelime bir
+    oncekinin alt class i oldugunu gosterdigi icin bosluktan oncesini sildi
+    class='bir classim' ---> .classim 
